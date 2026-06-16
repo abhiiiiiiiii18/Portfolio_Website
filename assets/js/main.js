@@ -72,7 +72,7 @@ const scrollUp = () => {
 window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-const sections = document.querySelectorAll('section[id')
+const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () => {
     const scrollDown = window.scrollY
